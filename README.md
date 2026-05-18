@@ -1,13 +1,3 @@
 # Landing Page Dentista Cliente
 
-Edite no VS Code o arquivo `index.html`.
 
-Procure e substitua:
-- NOME DA CLÍNICA
-- SEUNUMEROAQUI
-- ENDEREÇO DA CLÍNICA AQUI
-- TELEFONE AQUI
-- E-MAIL AQUI
-- FOTO PRINCIPAL AQUI
-- FOTO DA DENTISTA/EQUIPE AQUI
-- DEPOIMENTO DE PACIENTE AQUI
