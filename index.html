@@ -94,8 +94,16 @@
     .cta{padding:90px 0;background:linear-gradient(135deg,#c00c6f,#b60f70);color:#fff;text-align:center}
     .cta h2{color:#fff}.cta .lead{color:rgba(255,255,255,.82)}
     .cta .btnPrimary{background:#fff;color:#4b083c}
+    .contactSocial{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:18px}
+    .contactSocial a{display:inline-flex;align-items:center;justify-content:center;border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.12);color:#fff;border-radius:999px;padding:12px 18px;font-weight:900;transition:.25s}
+    .contactSocial a:hover{transform:translateY(-2px);background:#fff;color:#760f43}
     footer{background:#49043e;color:rgba(255,255,255,.78);padding:34px 0}
-    footer .container{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+    footer .container{display:flex;justify-content:space-between;align-items:center;gap:22px;flex-wrap:wrap}
+    .footerInfo{display:grid;gap:6px}
+    .footerInfo strong{color:#fff}
+    .socialLinks{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+    .socialLinks a{display:inline-flex;align-items:center;justify-content:center;gap:9px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.08);color:#fff;border-radius:999px;padding:11px 15px;font-weight:900;transition:.25s}
+    .socialLinks a:hover{transform:translateY(-2px);background:#fff;color:#760f43}
     .whats{position:fixed;right:22px;bottom:22px;z-index:40;width:60px;height:60px;border-radius:999px;background:#e00ba0;color:#2d052e;display:grid;place-items:center;font-size:28px;box-shadow:0 18px 50px rgba(197, 17, 122, 0.35);animation:pulse 2.2s infinite}
     .reveal{animation:reveal both;animation-timeline:view();animation-range:entry 10% cover 30%}
     @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
@@ -249,6 +257,10 @@
           <a class="btn btnPrimary" href="https://wa.me/5591981974741?text=Olá,%20gostaria%20de%20agendar%20uma%20avaliação">Chamar no WhatsApp</a>
           <a class="btn btnOutline" href="#">Ver localização</a>
         </div>
+        <div class="contactSocial" aria-label="Redes sociais">
+          <a href="https://www.instagram.com/dra.maria_da_conceicao?igsh=enFyZG5zZjRqMXdm" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://www.facebook.com/share/1HJGfcDwqV/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook</a>
+        </div>
         <p style="margin-top:24px;color:rgba(255,255,255,.78)">CLÍNICA ODONTOLÓGICA Drª.MARIA DA CONCEIÇÃO • 91 98197-4741 • 08:00 a 18:30</p>
       </div>
     </section>
@@ -267,7 +279,18 @@
 </div></div></section>
 </main>
 
-  <footer><div class="container"><strong>CLÍNICA ODONTOLÓGICA Drª.MARIA DA CONCEIÇÃO</strong><span>© 2026 • Clínica Odontológica • Todos os direitos reservados</span></div></footer>
+  <footer>
+    <div class="container">
+      <div class="footerInfo">
+        <strong>CLÍNICA ODONTOLÓGICA Drª.MARIA DA CONCEIÇÃO</strong>
+        <span>© 2026 • Clínica Odontológica • Todos os direitos reservados</span>
+      </div>
+      <div class="socialLinks" aria-label="Redes sociais">
+        <a href="https://www.instagram.com/dra.maria_da_conceicao?igsh=enFyZG5zZjRqMXdm" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://www.facebook.com/share/1HJGfcDwqV/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook</a>
+      </div>
+    </div>
+  </footer>
   <a class="whats" href="https://wa.me/5591981974741?text=Olá,%20gostaria%20de%20agendar%20uma%20avaliação">💬</a>
 </body>
 </html>
